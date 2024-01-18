@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <td>
+            <img
+              width="250"
+              src="https://media.licdn.com/dms/image/D4D03AQH8_ADGID7YVQ/profile-displayphoto-shrink_800_800/0/1694798148694?e=1710979200&v=beta&t=Nolmrj6qf5kK1w3AYq6FgwSkpprKwmjJkfbTAEA1Ih0"
+              alt="My image"
+            />
+          </td>
+          <td>
+            <h1>Tushar Jangra</h1>
+            <p><i>SME Intern @Scalar</i></p>
+            <p>I ❤️ Web Development and I am a GATE Aspirant!🚀</p>
+            <ul>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#internships">Internships</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#connect">Connect With Me</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <hr />
+    </header>
+
+    <main>
+      <section id="education">
+        <h2>Education</h2>
+        <table border="">
+          <tr>
+            <th>Course</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>Result</th>
+          </tr>
+          <tr>
+            <td>B.Tech</td>
+            <td>YMCA University</td>
+            <td>2024</td>
+            <td>86%</td>
+          </tr>
+          <tr>
+            <td>12<sup>th</sup></td>
+            <td>Century School</td>
+            <td>2020</td>
+            <td>95%</td>
+          </tr>
+          <tr>
+            <td>10<sup>th</sup></td>
+            <td>Dyal Singh Public School</td>
+            <td>2018</td>
+            <td>90%</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="internships">
+        <h2>Internships</h2>
+        <article>
+          <ul>
+            <li>
+              <h3>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/18hSWYD51dPjRKVQo6888ZBZt47Ulg6Ah/view"
+                  >Subject Matter Expert @ Scalar
+                </a>
+              </h3>
+              <p>
+                As a Teaching Assistant at Scaler, I provide vital guidance and
+                support to aspiring software developers, offering hands-on
+                assistance, feedback, and mentorship. My role includes fostering
+                a dynamic and collaborative learning environment through online
+                discussions and grading. I am dedicated to empowering students
+                in developing coding skills, preparing them for successful
+                careers in the tech industry.
+              </p>
+            </li>
+            <li>
+              <h3>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Br_m81Qy3gGlduExHbbw5mxWLetkX6EU/view"
+                  >Associate Software Engineer @ Accenture</a
+                >
+              </h3>
+              <p>
+                • I was responsible for assisting in the development,
+                implementation, and maintenance of software applications.Working
+                closely with senior software engineers and other
+                cross-functional teams, my role involved contributing to the
+                design and coding of software solutions, as well as
+                troubleshooting and debugging issues that arise during the
+                development process
+              </p>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <article>
+              <p>
+                <a href="https://tushar161101.github.io/portfolio/"
+                  >Personal Portfolio Website</a
+                >| HTML,CSS,JS
+              </p>
+              <p>
+                It is a personal portfolio website where viewers can know more
+                about me, my background, and my projects. It also provides a
+                contact me feature using which users can contact me for any
+                query or feedback.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <p>
+                <a href="https://algoflow.netlify.app/">AlgoFlow</a>|
+                HTML,CSS,JS,ReactJS
+              </p>
+              <p>
+                Built a website where users can visualize data structures and
+                algorithms for a better grasp and understanding of
+                concepts.Implemented linked list, backtracking, graph
+                traversals, searching, and sorting algorithms.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <hr />
+    </main>
+
+    <footer>
+      <section id="connect">
+        <h2>Connect With Me!!</h2>
+        <form action="#">
+          <label for="fName">First Name: </label>
+          <input type="text" required name="fName" id="fName" />
+          <br /><br />
+          <label for="lName">Last Name: </label>
+          <input type="text" name="lName" id="lName" />
+          <br /><br />
+          <p>Gender:</p>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Other</label>
+          <br /><br />
+          <label for="email">Email: </label>
+          <input required type="email" name="email" id="email" />
+          <br /><br />
+          <label for="age">Age: </label>
+          <select name="age" id="age">
+            <option value="">Select</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-40">30-40</option>
+            <option value="40+">40+</option>
+          </select>
+          <br /><br />
+          <label for="comments">Comments: </label>
+          <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+          <br /><br />
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
+        </form>
+        <hr />
+        <a href="#">Move To Top </a>
+      </section>
+    </footer>
+  </body>
+</html>
